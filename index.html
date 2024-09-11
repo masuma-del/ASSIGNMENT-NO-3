@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-no-3</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbfc4be646.js" crossorigin="anonymous">
+
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", system-ui;
+
+        }
+            
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'house-primary': '#ABEF5F',
+                'house-secondary': '#FFFFFF',
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body class="font-manrope">
+    <header class="lg:container mx-auto">
+        <nav class="mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Item 1</a></li>
+                      
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right -rotate-45 text-black rounded-full bg-house-primary w-7 h-7 flex items-center justify-center"></i></a>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex hidden sm:block">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-xs font-bold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end pl-20 hidden sm:block">
+                    <i class="fa-solid fa-magnifying-glass text-gray rounded-full bg-house-secondary w-7 h-7 items-center justify-center"></i>
+                    <i class="fa-solid fa-cart-shopping rounded-full bg-white w-7 h-7"></i>
+                    <a class="btn bg-house-primary border rounded-full text-black">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-white rounded-full bg-stone-950 w-7 h-7 flex items-center justify-center"></i></a>
+                </div>
+                </div>
+              </div>
+        </nav>
+
+    </header>
+    <main class="mx-auto lg:px-20">
+        <section class="pt-8 mb-10">
+          <div class="text-center items-center justify-center">
+            <div class="sm:h-auto mr-20 lg:text-center justify-center ml-60">
+              <img src="assets/banner.png" alt="Centered Image">
+            </div>
+              <div>
+                <h2 class="text-6xl font-extrabold">A barn house of this design has a
+                <br> striking appearance</h2>
+                <br>
+                <p class="text-gray-500 w-3/4">A barn is an outbuilding on a farm used to keep animals or crops safe and dry.</p>
+                <br>
+                <button class=" bg-lime-200 text-black px-4 py-2 rounded-full">View Details<i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-house-primary w-6 h-6 
+                items-center justify-center"></i></button>
+
+              </div>
+          </div>
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
